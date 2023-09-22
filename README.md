@@ -1,4 +1,4 @@
-# Privy x ZeroDev Starter
+# Privy x Biconomy Starter
 
 ## Live Demo
 
@@ -8,7 +8,7 @@ TBD
 
 This is a template for integrating [**Privy**](https://www.privy.io/) and [**Biconomy**](https://www.biconomy.io/) into a [NextJS](https://nextjs.org/) project. Check out the deployed app here!
 
-In this demo app, a user can login with their email, Google account, Discord account, Twitter account, or Apple account, and get a Privy embedded wallet. Once the user has logged in and created an embedded wallet, ZeroDev will create a **smart wallet** for the user behind the scenes, which can then be used to incorporate gas sponsorship, batched transactions, and more into your app.
+In this demo app, a user can login with their email, Google account, Discord account, Twitter account, or Apple account, and get a Privy embedded wallet. Once the user has logged in and created an embedded wallet, Biconomy will create a **smart wallet** for the user behind the scenes, which can then be used to incorporate gas sponsorship, batched transactions, and more into your app.
 
 You can test this by logging into the app and attempting to mint an NFT with your smart wallet; it should cost you no gas!
 

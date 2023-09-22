@@ -43,8 +43,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
         <link rel="manifest" href="/favicons/manifest.json" />
 
-        <title>Privy ZeroDev Integration</title>
-        <meta name="description" content="Privy ZeroDev Integration" />
+        <title>Privy Biconomy Integration</title>
+        <meta name="description" content="Privy Biconomy Integration" />
       </Head>
       <PrivyProvider
         appId={process.env.NEXT_PUBLIC_PRIVY_APP_ID || ""}
