@@ -64,7 +64,7 @@ export const BiconomyProvider = ({ children }: { children: React.ReactNode }) =>
     useEffect(() => {
         if (!ready || !authenticated) return;
         const embeddedWallet = wallets.find((wallet) => (wallet.walletClientType === 'privy'));
-        if (embeddedWallet) createBiconomyAccountFromEOA(embeddedWallet);
+        if (embeddedWallet && !smartAccount) createBiconomyAccountFromEOA(embeddedWallet);
     }, [wallets]);
 
 
