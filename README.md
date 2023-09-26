@@ -46,6 +46,22 @@ NEXT_PUBLIC_BICONOMY_PAYMASTER_URL=<your-biconomy-paymaster-url-for-mumbai>
 In your project directory, run `npm run dev`. You can now visit http://localhost:3000 to see your app and login with Privy!
 
 
-## Check out:
+## Learn more
 
-TBD
+Check out the following files to learn more about the integration!
+
+### `pages/_app.tsx`
+
+This demonstrates how to wrap your React app with the `PrivyProvider`, and how to configure Privy's login methods, embedded wallets, etc.
+
+### `hooks/BiconomyContext.tsx`
+
+This demonstrates how to initialize a Biconomy smart account from a Privy embedded wallet. In this example app, we store the user's Biconomy smart account in a React context to allow us to easily access it from other pages/components.
+
+### `pages/index.tsx`
+
+This demonstrates how to use Privy's `login` method to authenticate your users and create an embedded wallet for them.
+
+### `pages/dashboard.tsx`
+
+This demonstrates how to use a Biconomy smart account's `buildUserOp` and `sendUserOp` methods to mint an ERC-721 NFT gaslessly. 
