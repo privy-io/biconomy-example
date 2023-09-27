@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-TBD
+https://biconomy-example.privy.io/
 
 ## Intro
 
