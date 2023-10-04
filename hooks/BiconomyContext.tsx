@@ -57,6 +57,7 @@ export const BiconomyProvider = ({ children }: { children: React.ReactNode }) =>
             rpcUrl: `https://polygon-mumbai.infura.io/v3/${process.env.NEXT_PUBLIC_INFURA_API_KEY}`
         });
 
+
         setSmartAccount(biconomySmartAccount);
         const address = await biconomySmartAccount.getAccountAddress();
         setSmartAccountAddress(address);
