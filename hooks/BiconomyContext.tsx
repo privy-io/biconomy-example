@@ -53,8 +53,10 @@ export const BiconomyProvider = ({ children }: { children: React.ReactNode }) =>
             paymaster: paymaster,
             entryPointAddress: DEFAULT_ENTRYPOINT_ADDRESS,
             defaultValidationModule: validationModule,
-            activeValidationModule: validationModule
+            activeValidationModule: validationModule,
+            rpcUrl: `https://polygon-mumbai.infura.io/v3/${process.env.NEXT_PUBLIC_INFURA_API_KEY}`
         });
+
 
         setSmartAccount(biconomySmartAccount);
         const address = await biconomySmartAccount.getAccountAddress();
