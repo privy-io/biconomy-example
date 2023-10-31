@@ -19,7 +19,7 @@ You can test this by logging into the app and attempting to mint an NFT with you
 git clone https://github.com/<your-github-handle>/
 ```
 
-2. Install the necessary dependencies (including [the Privy SDK](https://www.npmjs.com/package/@privy-io/react-auth) and [Biconomy's SDKs](https://docs.biconomy.io/docs/Biconomy%20AA%20Stack/Account/installation)) with `npm`.
+2. Install the necessary dependencies (including [the Privy SDK](https://www.npmjs.com/package/@privy-io/react-auth) and [Biconomy's SDKs](https://docs.biconomy.io/category/smart-accounts)) with `npm`.
 ```sh
 npm i
 ```
